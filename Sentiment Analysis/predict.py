@@ -20,11 +20,11 @@ def run(sentence):
         else:
             sentence_idx.append(0)
     sentence_idx = np.array(sentence_idx)[None, :]
-    predicted = (model.predict(sentence_idx)[0][0] > 0.5)*1
-    sentiment = lb.inverse_transform([predicted])
-    print(f'SENTENCE -> {sentence} | SENTIMENT-> {sentiment}')
+    score = model.predict(sentence_idx)[0][0]
+    prediction = (score>0.5)*1
+    sentiment = lb.inverse_transform([prediction])[0]
+    print(f'SENTENCE -> {sentence} | SENTIMENT-> {sentiment} | SCORE-> {score}')
 
 if __name__ == "__main__":
-    sentence = 'That was a great movie'
+    sentence = 'The movie was just so good'
     run(sentence)
-
