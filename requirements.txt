@@ -5,3 +5,7 @@ nltk
 tensorflow-gpu
 pandas
 sklearn
+albumentations
+matplotlib
+opencv-python
+Pillow
