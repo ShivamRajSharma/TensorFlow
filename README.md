@@ -6,7 +6,7 @@ In this repository you will find projects related to Computer Vision and Natural
 
 To make the models train quicker on your local machine make sure you have CUDA and CUDNN preinstalled.
 
-# Requirements
+## Requirements
 
 To install all the python packages required for the projects run the command mentioned below on your terminal/command promt
 
