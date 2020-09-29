@@ -8,8 +8,6 @@ To make the models train quicker on your local machine make sure you have CUDA a
 
 ## Requirements
 
-
-
-To install all the python packages required for the projects run the command mentioned below on your terminal/command promt
+To install all the python packages required for the projects, run the command mentioned below on your terminal/command promt
 
 ``` pip install -r requirements.txt ```
