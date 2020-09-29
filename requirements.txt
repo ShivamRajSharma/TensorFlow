@@ -4,7 +4,7 @@ tqdm
 nltk
 tensorflow-gpu
 pandas
-sklearn
+scikit-learn
 albumentations
 matplotlib
 opencv-python
