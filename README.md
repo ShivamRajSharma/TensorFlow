@@ -2,5 +2,5 @@
 # 
 # TensorFlow Projects
 
-In this repository you will find projects related to Deep Learning implemented in TensorFlow.
+In this repository you will find projects related to Computer Vision and Natural Language Processing implemented  using TensorFlow.
 
