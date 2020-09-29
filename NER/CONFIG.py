@@ -6,5 +6,5 @@ hidden_dims = 300
 num_layers = 2
 dropout = 0.2
 
-Epochs = 20
+Epochs = 1
 Batch_size = 32

@@ -68,4 +68,4 @@ class DataLoader(keras.utils.Sequence):
     
     def on_epoch_end(self):
         if self.shuffle:
-            np.random.shuffle(self.indexex)
+            np.random.shuffle(self.train_index)

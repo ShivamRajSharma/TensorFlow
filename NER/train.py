@@ -21,7 +21,6 @@ def run():
     pos_lb = LabelEncoder()
     pos_lb = pos_lb.fit(df['POS'].values)
     df['POS'] = pos_lb.transform(df['POS'].values)
-    pickle.dump(pos_lb, open('input/pos_lb.pickle', 'wb'))
     sentence = df.groupby('Sentence #')['Word'].apply(list).values
     pos = df.groupby('Sentence #')["POS"].apply(list).values
     x_val = sentence[:int(0.1*len(sentence))]
@@ -30,6 +29,9 @@ def run():
 
     print('--------- [INFO] TOKENIZING --------')
     train_loader = dataloader.DataLoader(sentence, pos, CONFIG.Batch_size)
+
+    pickle.dump(pos_lb, open('input/pos_lb.pickle', 'wb'))
+    pickle.dump(train_loader.vocab.word_to_idx, open('input/word_to_idx.pickle', 'wb'))
     
     x_val = train_loader.vocab.numericalize(x_val)
     x_val = keras.preprocessing.sequence.pad_sequences(x_val, padding='post', value=train_loader.vocab.word_to_idx["<PAD>"])
@@ -51,7 +53,7 @@ def run():
     
     print(f'------- [INFO] STARTING TRAINING -------')
     
-    model.fit(train_loader, epochs=CONFIG.Epochs, batch_size=CONFIG.Batch_size, validation_data=[x_val, y_val])
+    model.fit(train_loader, epochs=CONFIG.Epochs, batch_size=CONFIG.Batch_size, validation_data=(x_val, y_val))
     model.save(CONFIG.MODEL_PATH)
 
 

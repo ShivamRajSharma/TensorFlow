@@ -14,7 +14,7 @@ def NERModel(vocab_size, num_classes):
         x = GRU(CONFIG.hidden_dims, dropout=CONFIG.dropout, return_sequences=True)(x)
         tf.clip_by_value(x, -1, 1)
         x = LayerNormalization()(x)
-    x = Dense(num_classes)(x)
+    x = Dense(num_classes, activation='softmax')(x)
     model =  Model(inp_, x)
     
     return model
