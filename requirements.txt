@@ -1,0 +1,7 @@
+numpy 
+spacy
+tqdm 
+nltk
+tensorflow-gpu
+pandas
+sklearn
