@@ -2,10 +2,10 @@ numpy
 spacy
 tqdm 
 nltk
-tensorflow-gpu
 pandas
 scikit-learn
 albumentations
 matplotlib
 opencv-python
 Pillow
+tensorflow-gpu
