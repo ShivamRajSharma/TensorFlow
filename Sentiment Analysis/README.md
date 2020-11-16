@@ -39,7 +39,7 @@ A Unidirectional based simple LSTM network.
 6) Performance Metric      : Accuracy.
 7) Epochs Trained          : 2
 8) Performance             : 92% Accuracy.
-9) Training Time           : 4 minutes.
+9) Training Time           : 2 minutes.
 </pre>
 
 ## Further Improvement 
