@@ -25,7 +25,7 @@ Dataset : https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus
 
 ## Model Architecure 
 <p align="center">
-  <img src="https://info.itemis.com/hubfs/Blog/DataScience/RNN-based-on-GRU-cells.jpg" height="280" />
+  <img src="https://info.itemis.com/hubfs/Blog/DataScience/RNN-based-on-GRU-cells.jpg" height="350" />
 </p>
 
 A Unidirectional based simple GRU network with word to POS mapping.
