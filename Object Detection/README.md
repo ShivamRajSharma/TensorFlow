@@ -4,7 +4,7 @@
  
  ## 1) Turning a Image Classifier into an Object Detection.
  
- Instead of training a multiclass object detection, we instead convert a pre-trained image classifier into an object detection using a sliding window and pyramid image scaling approach. This approch works because a CNN only focuses on a certain parts of an image on which it is able to take it decisions which can be visualized using [Grad-CAM](https://arxiv.org/abs/1610.02391). The results of Face Detection are available inside the notebook Classification_To_Localization.ipynb .</br>
+ Instead of training a multiclass object detection, we convert a pre-trained image classifier into an object detection using a sliding window and pyramid image scaling approach. This approch works because a CNN only focuses on a certain parts of an image on which it is able to take it decision to classify the objects. The region where CNN focuses can be visualized using [Grad-CAM](https://arxiv.org/abs/1610.02391). The results of Face Detection are available inside the notebook Classification_To_Localization.ipynb .</br>
  
  OUTPUT : 
  <p align="center">
