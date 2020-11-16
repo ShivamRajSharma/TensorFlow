@@ -42,6 +42,7 @@ A Unidirectional based simple LSTM network.
 7) Epochs Trained          : 2
 8) Performance             : 92% Accuracy.
 9) Training Time           : 4 minutes.
+</pre>
 
 ## Further Improvement 
 1) Larger Dataset
