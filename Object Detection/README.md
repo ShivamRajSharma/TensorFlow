@@ -12,7 +12,7 @@
  
  Output : 
  <p align="center">
-  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Object%20Detection/Output/Face_Detection.png" height="280" />
+  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Object%20Detection/Output/Face_Detection.png"/>
 </p>
  
  ## 3) Multiclass Object detection from Scratch
@@ -20,6 +20,6 @@
  
  Output : 
  <p align="center">
-  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Object%20Detection/Output/MultiClass_Object_Dectection.png" height="280" />
+  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Object%20Detection/Output/MultiClass_Object_Dectection.png" />
 </p>
  
