@@ -10,6 +10,8 @@
  
  We use a pretrained MobileNetV2 model as our base model and fine tune its last layers for the face detection. We use faces class of the [PASCAL-VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/) to train our network. The results of Face Detection are available inside the notebook.
  
+ ### Output
+ 
  ## 3) Multiclass Object detection from Scratch
  We use a pretrained EfficientNetB0 model as our base model and fine tune its last layers for the Multiclass Object Detection. We use subset of classes present in [PASCAL-VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/) to train our network. The results of Face Detection are available inside the notebook.
  
