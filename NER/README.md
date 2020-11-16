@@ -1,7 +1,7 @@
 # Named Entity Recognition
 
 <p align="center">
-  <img src="https://cdn-images-1.medium.com/max/1000/1*EtZzTLreinuaZ9TtfuXhAw.png" height="280" />
+  <img src="https://cdn-images-1.medium.com/max/1000/1*EtZzTLreinuaZ9TtfuXhAw.png" height="150" />
 </p>
 
 Named-entity recognition (NER) (also known as (named) entity identification, entity chunking, and entity extraction) 
