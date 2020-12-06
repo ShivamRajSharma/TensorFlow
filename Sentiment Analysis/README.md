@@ -8,10 +8,6 @@ Sentiment Analysis is the process of determining whether a piece of writing is p
 
 Sentiment analysis helps data analysts within large enterprises gauge public opinion, conduct nuanced market research, monitor brand and product reputation, and understand customer experiences. In addition, data analytics companies often integrate third-party sentiment analysis APIs into their own customer experience management, social media monitoring, or workforce analytics platform, in order to deliver useful insights to their own customers.
 
-## Result
-  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Sentiment%20Analysis/Output/output.png" />
-
-
 ## Dataset Information 
 
 The model was trained on IMDB movie reviews from kaggle. The dataset contains 50K movie reviews with 25k positive and 25k negetive movie reviews. </br>
@@ -23,6 +19,10 @@ Dataset : https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-revie
 2) Download the dataset from url provided above and place it inside ``` input/ ``` folder.
 3) Run ```python3 train.py``` and let the model train for 2-3 iterations.
 4) To infer on the trained model run ```python3 predict.py```.
+
+## Result
+  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Sentiment%20Analysis/Output/output.png" />
+
 
 ## Model Architecure 
 <p align="center">
