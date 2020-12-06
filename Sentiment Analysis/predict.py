@@ -23,8 +23,9 @@ def run(sentence):
     score = model.predict(sentence_idx)[0][0]
     prediction = (score>0.5)*1
     sentiment = lb.inverse_transform([prediction])[0]
-    print(f'SENTENCE -> {sentence} | SENTIMENT-> {sentiment} | SCORE-> {score}')
+    print(f'\n SENTENCE -> {sentence} | SENTIMENT-> {sentiment} | SCORE-> {score} \n')
 
 if __name__ == "__main__":
-    sentence = 'The movie was just so good'
+    sentence = str(input("Enter a movie review : "))
     run(sentence)
+

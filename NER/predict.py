@@ -26,9 +26,13 @@ def predict(sentence):
     data = [sentence_tokenized, labels]
     df = pd.DataFrame(data).transpose()
     df.columns = ['Word', 'POS']
+    print(f"Sentence -> {sentence} \n")
     print(df)
 
         
 
 if __name__ == "__main__":
-    predict('I live in Delhi')
+    print("\n")
+    sentence = str(input("Enter a sentence : "))
+    predict(sentence)
+    print("\n")
