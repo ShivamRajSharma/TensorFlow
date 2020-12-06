@@ -4,11 +4,11 @@ In this repository we implent a multi class classifier on CIFAR-10 dataset using
 
 ## Results :
 1) Accuracy Plot 
-  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Image%20Classification/Output/acc_plot.png" height="200" />
+  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Image%20Classification/Output/acc_plot.png" height="300" />
 
 2) Confusion Matrix 
 <p align="center">
-  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Image%20Classification/Output/confusion_matrix.png" height="200" />
+  <img src="https://github.com/ShivamRajSharma/TensorFlow/blob/master/Image%20Classification/Output/confusion_matrix.png" height="300" />
 </p>
 
 As we can see the model has difficulty in differentiating between cats and dogs, cat and frog. Therefore adding more cats pictures in the  dataset of cats would solve the problem.
