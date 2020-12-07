@@ -29,7 +29,7 @@ Dataset : https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-revie
   <img src="https://miro.medium.com/max/489/1*27JmK8VBdphpSCWNb4MhNA.png" height="280" />
 </p>
 
-A Unidirectional based simple LSTM network.
+* A Unidirectional based simple LSTM network.
 
 
 ## Extra Info
